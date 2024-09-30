@@ -1,0 +1,72 @@
+
+body, .navbar, .footer, .modal-content {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #1f1f1f;
+}
+
+.table-dark.table-hover tbody tr:hover {
+    background-color: #2a2a2a;
+}
+
+.btn-close-white {
+    filter: invert(1);
+}
+
+
+h2, h3, p {
+    margin: 15px 0;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+footer {
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+
+.photo img {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
+    border-radius: 50%; 
+    border: 3px solid #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+}
+
+
+.photo img:hover {
+    transform: scale(1.05); 
+}
+
+
+.biodata-container {
+    padding: 40px 0; 
+    background-color: #1e1e1e; 
+    border-radius: 8px; 
+}
+
+
+.info h2 {
+    color: #00e9fa; 
+}
